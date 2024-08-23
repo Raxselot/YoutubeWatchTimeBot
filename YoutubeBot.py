@@ -9,7 +9,7 @@ import time
 import logging
 
 
-VIDEO_URLS = ['https://www.youtube.com/watch?v=99d0qGFYgn4'] // Insert your youtube Link can handle More youtube Links at once 
+VIDEO_URLS = ['https://www.youtube.com/watch?v=99d0qGFYgn4'] # Insert your youtube Link can handle More youtube Links at once 
 WAIT_TIME = 5 
 COOKIE_ACCEPT_WAIT = 15  
 AD_SKIP_WAIT = 20  
@@ -28,7 +28,7 @@ def handle_cookie_consent(driver):
     """Handle cookie consent"""
     try:
         accept_button = WebDriverWait(driver, COOKIE_ACCEPT_WAIT).until(
-            EC.presence_of_element_located((By.XPATH, "//button//span[text()='Alle akzeptieren']")) // Your Prob Need to Change this too this is just for Germany
+            EC.presence_of_element_located((By.XPATH, "//button//span[text()='Alle akzeptieren']")) # Your Prob Need to Change this too this is just for Germany
         )
         driver.execute_script("arguments[0].click();", accept_button)
         logging.info("Cookie consent accepted")
