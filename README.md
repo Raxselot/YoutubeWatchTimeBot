@@ -9,6 +9,10 @@ And Starts Again
 Reminder: 
 Botting Videos on Youtube is not allowd, and could consider a Youtube Account Ban for you. 
 
+
+Disclaimer: 
+This has been developed for educational purposes only. Any action you take using this script is strictly at your own risk. I will not be liable for any losses or damages you face using this script.
+
 This Code is just for Learning Botting, and not Forgetting the old Times ;) 
 
 Making good Content is the better Viewtime Bot :P  
