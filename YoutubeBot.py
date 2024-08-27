@@ -89,6 +89,9 @@ def play_video(driver, video_url):
     video_duration = driver.execute_script("return document.querySelector('video').duration;")
     logging.info(f"Video duration: {video_duration} seconds")
     
+    stop_time = random.uniform(0.7 * video_duration, video_duration)
+    logging.info(f"Video will stop after: {stop_time} seconds")
+
     time.sleep(video_duration)
 
 
