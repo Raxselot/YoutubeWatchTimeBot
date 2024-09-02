@@ -11,7 +11,7 @@ from fake_useragent import UserAgent
 import undetected_chromedriver as uc
 
 VIDEO_URLS = [
-    'https://www.youtube.com/yourvid'  # Füge hier deinen Video-Link hinzu
+    'https://www.youtube.com/yourvid'  # Füge hier Youtube Video-Link hinzu
 ]
 WAIT_TIME = random.uniform(5, 15)
 COOKIE_ACCEPT_WAIT = 15
